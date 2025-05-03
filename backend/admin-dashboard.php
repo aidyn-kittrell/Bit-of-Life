@@ -65,7 +65,6 @@ $topUsers = $conn->query("SELECT username, COUNT(game_sessions.id) AS games_play
         </tbody>
     </table>
 
-    <!-- Add this inside the <body> tag of admin_dashboard.php -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
     google.charts.load('current', {packages: ['corechart']});
