@@ -29,6 +29,36 @@ The application allows users to interact with a grid of cells, observe evolving 
   - Session management for user login states.
 
 ## Project Structure
+├── LICENSE
+├── README.md
+├── backend
+    ├── admin-dashboard.php
+    ├── admin.php
+    ├── database.php
+    ├── login.php
+    ├── logout.php
+    ├── player.php
+    ├── redirect.php
+    ├── register.php
+    └── suspend-user.php
+└── frontend
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    ├── public
+        └── vite.svg
+    ├── src
+        ├── App.css
+        ├── App.jsx
+        ├── GameGrid.css
+        ├── GameGrid.jsx
+        ├── assets
+        │   └── react.svg
+        ├── index.css
+        └── main.jsx
+    └── vite.config.js
 .
 ├── backend
 │   ├── admin-dashboard.php
