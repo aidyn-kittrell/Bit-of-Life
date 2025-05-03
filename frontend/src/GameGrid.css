@@ -1,0 +1,35 @@
+.game-container {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  .grid {
+    display: inline-block;
+    margin: 1rem auto;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .cell.alive {
+    background-color: #4caf50;
+  }
+  
+  .cell.dead {
+    background-color: #f0f0f0;
+  }
+  
+  .controls button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
